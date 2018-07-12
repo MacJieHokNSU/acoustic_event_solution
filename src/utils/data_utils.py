@@ -54,7 +54,7 @@ def get_test_pairs(test_data_path: str) -> List[Tuple[str, str]]:
     """
     test_samples_pathes = os.listdir(test_data_path)
     test_samples_labels = [x.split('_')[0] for x in test_samples_pathes]
-    return [(x, y) for x, y in zip(test_samples_pathes, test_samples_labels) if y != 'unknown']
+    return [(x, y) for x, y in zip(test_samples_pathes, test_samples_labels)]
 
 def get_open_pairs(test_data_path: str) -> List[Tuple[str, str]]:
     """
