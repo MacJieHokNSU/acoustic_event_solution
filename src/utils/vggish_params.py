@@ -48,7 +48,6 @@ ADAM_EPSILON = 1e-8  # Epsilon for the Adam optimizer.
 # Names of ops, tensors, and features.
 INPUT_OP_NAME = 'vggish/input_features'
 INPUT_TENSOR_NAME = INPUT_OP_NAME + ':0'
-OUTPUT_OP_NAME = 'vggish/embedding'
-#OUTPUT_OP_NAME = 'vggish/Flatten/flatten/Reshape'
+OUTPUT_OP_NAME = 'vggish/Flatten/flatten/Reshape'
 OUTPUT_TENSOR_NAME = OUTPUT_OP_NAME + ':0'
 AUDIO_EMBEDDING_FEATURE_NAME = 'audio_embedding'

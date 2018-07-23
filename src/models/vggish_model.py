@@ -45,4 +45,4 @@ class VggishModel(object):
             self.__embedding_tensor,
             feed_dict={self.__features_tensor: examples_batch}
         )
-        return np.mean(embedding_batch, axis=0)
+        return embedding_batch

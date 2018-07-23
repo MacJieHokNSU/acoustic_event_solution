@@ -24,7 +24,7 @@ htmlcov/
 ###
 .ckpt
 notebooks/
-data/ontology/mini_audioset
+data/ontology
 data/test
 data/audio
 data/meta
